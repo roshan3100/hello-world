@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Portfolio Landing Page</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="portfolio_style.css">
+    <!----Fontawesome CDN Link----->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
 <body>
-
-<h2>Show Different Images Depending on Browser Width</h2>
-<p>Resize the browser width and the image will change at 600px and 1500px.</p>
-
-<picture>
-  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-  <source srcset="flowers.jpg">
-  <img src="https://magicpin.in/Guwahati/Uzan-Bazaar/Restaurant/The-Bean-Journal/store/2774b9/photos/?img=Store-Images&id=1" alt="Flowers" style="width:auto;">
-</picture>
-
+    <div class="hero">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="info">
+            <h1><span>Roshan Gulgulia</span></h1>
+            <h1>Senior Software Engineer</h1>
+            <div class="pad">
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="poi.png">
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
 </body>
 </html>
